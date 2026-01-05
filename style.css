@@ -61,10 +61,23 @@ body{
 #password::placeholder{
     font-size: 15px;
 }
+#new-reg{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+#new-reg-link{
+    text-decoration: none;
+}
+#new-reg-link:hover{
+    text-decoration: underline;
+}
 #submit{
     margin-top: 100px;
     margin-left: 170px;
     padding: 8px;
     width: 90px;
     border-radius: 5px;
+}
+#submit:hover{
+    background-color: gray;
 }
