@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #d8eeff;
+}
+#outer-box{
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    height: 550px;
+    width: 700px;
+    border-radius: 5%;
+    border: 2px solid black;
+    justify-content: center;
+
+}
+#inner-box{
+    margin-top: 25px;
+    width: 90%;
+    height: 80%;
+    
+}
+#salutation{
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+.left-div{
+    display: inline-block;
+    width: 48%;
+    height: 280px;
+}
+.right-div{
+
+    display: inline-block;
+    width: 48%;
+    height: 280px;
+}
+#name{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+#email{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#password{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+}
+#username{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#phone{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#c-password{
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+#name-text{
+    font-size: larger;
+}
+#email-text{
+    font-size: larger;
+}
+#password-text{
+    font-size: larger;
+}
+#username-text{
+    font-size: larger;
+}
+#phone-text{
+    font-size: larger;
+}
+#c-password-text{
+    font-size: larger;
+}
+.gender{
+    height: 40px;
+    margin-bottom: 60px;
+}
+#gender-text{
+    font-size: x-large;
+    margin-bottom: 8px;
+}
+
+label{
+    margin-right: 70px;
+    font-size: 20px;
+}
+#register{
+    margin-left: 18%;
+    height: 30px;
+    width: 400px;
+}
