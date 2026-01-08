@@ -17,7 +17,7 @@ body{
     background-color: aliceblue;
     margin-top: 100px;
     height: 500px;
-    width: 500px;
+    width: 500px; 
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -61,23 +61,19 @@ body{
 #password::placeholder{
     font-size: 15px;
 }
+#submit{
+    margin-top: 45px;
+    height: 30px;
+    width: 300px;
+    margin-left: 12%;
+}
 #new-reg{
-    margin-top: 12px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 85px;
 }
 #new-reg-link{
     text-decoration: none;
 }
 #new-reg-link:hover{
     text-decoration: underline;
-}
-#submit{
-    margin-top: 80px;
-    height: 30px;
-    width: 300px;
-    margin-left: 12%;
-}
-
-#submit:hover{
-    background-color: gray;
 }

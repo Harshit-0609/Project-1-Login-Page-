@@ -9,9 +9,9 @@ body{
 }
 #outer-box{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: white;
-    height: 550px;
+    height: 600px;
     width: 700px;
     border-radius: 5%;
     border: 2px solid black;
@@ -113,8 +113,17 @@ label{
     margin-right: 70px;
     font-size: 20px;
 }
-#register{
+#register{ 
+    display: block;
     margin-left: 18%;
+    margin-bottom: 15px;
     height: 30px;
     width: 400px;
+}
+#login-link{
+    margin-left: 200px;
+    text-decoration: none;
+}
+#login-link:hover{
+    text-decoration: underline;
 }
