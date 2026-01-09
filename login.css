@@ -42,7 +42,6 @@ body{
     font-size: large;
 }
 #username{
-    margin-bottom: 20px;
     padding: 8px;
     padding-right: 75px;
     
@@ -60,6 +59,16 @@ body{
 }
 #password::placeholder{
     font-size: 15px;
+}
+.error-message{
+    /* border: 1px solid black; */
+    margin-left: 85px;
+    color: red;
+    min-height: 26px;
+    margin-bottom: 20px;
+}
+#password-error{
+    margin-bottom: 0px;
 }
 #submit{
     margin-top: 45px;

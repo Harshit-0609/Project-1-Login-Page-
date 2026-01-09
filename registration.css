@@ -12,39 +12,43 @@ body{
     margin-top: 50px;
     background-color: white;
     height: 600px;
-    width: 700px;
+    width: 650px;
     border-radius: 5%;
     border: 2px solid black;
     justify-content: center;
 
 }
 #inner-box{
+    /* border: 1px solid black; */
     margin-top: 25px;
-    width: 90%;
-    height: 80%;
-    
+    width: 570px;
 }
 #salutation{
     font-size: x-large;
     margin-bottom: 25px;
 }
 .left-div{
+    /* border: 1px solid black; */
     display: inline-block;
     width: 48%;
-    height: 280px;
+    /* height: 280px; */
+    vertical-align: top;
+;
 }
 .right-div{
-
+    /* border: 1px solid black; */
     display: inline-block;
     width: 48%;
-    height: 280px;
+    /* height: 280px; */
+    margin-left: 8px;
+    vertical-align: top;
 }
 #name{
     display: block;
     width: 85%;
     height: 40px;
     padding-left: 20px;
-    margin-bottom: 25px;
+
 
 }
 #email{
@@ -52,7 +56,7 @@ body{
     width: 85%;
     height: 40px;
     padding-left: 20px;
-    margin-bottom: 25px;
+
 }
 #password{
     display: block;
@@ -65,14 +69,12 @@ body{
     width: 85%;
     height: 40px;
     padding-left: 20px;
-    margin-bottom: 25px;
 }
 #phone{
     display: block;
     width: 85%;
     height: 40px;
     padding-left: 20px;
-    margin-bottom: 25px;
 }
 #c-password{
     display: block;
@@ -100,6 +102,11 @@ body{
 #c-password-text{
     font-size: larger;
 }
+.error-message{
+    /* border: 1px solid black; */
+    color: red;
+    min-height: 26px;
+}
 .gender{
     height: 40px;
     margin-bottom: 60px;
@@ -115,13 +122,13 @@ label{
 }
 #register{ 
     display: block;
-    margin-left: 18%;
+    margin-left: 10%;
     margin-bottom: 15px;
     height: 30px;
     width: 400px;
 }
 #login-link{
-    margin-left: 200px;
+    margin-left: 170px;
     text-decoration: none;
 }
 #login-link:hover{
